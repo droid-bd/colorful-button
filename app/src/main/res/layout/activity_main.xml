@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_black"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_black"
+            android:text="Black"/>
+
+        <Button
+            android:id="@+id/btn_blue"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_blue"
+            android:text="Blue"/>
+
+        <Button
+            android:id="@+id/btn_green"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_green"
+            android:text="Green"/>
+        <Button
+            android:id="@+id/btn_purple"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_purple"
+            android:text="Purple"/>
+        <Button
+            android:id="@+id/btn_red"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_red"
+            android:text="Red"/>
+        <Button
+            android:id="@+id/btn_yellow"
+            style="@style/ButtonText"
+            android:background="@drawable/btn_yellow"
+            android:text="Yellow"/>
+
+
+        <com.example.google.interview.ChartView
+            android:layout_width="250dp"
+            android:layout_height="250dp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
